@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(217, 54%, 11%);
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  padding-top: 2rem;
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1.2rem;
+}
+
+main img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 5% 5%;
+  border-radius: 1.5rem;
+}
+
+main h2 {
+  padding-left: 5%;
+  font-family: "Outfit", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+main h2:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+main p {
+  padding: 5% 5%;
+  padding-right: 10%;
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.data p svg {
+  margin-right: 0.2rem;
+}
+
+.etherium {
+  align-items: center;
+  justify-content: center;
+  padding-right: 2rem;
+  color: hsl(178, 100%, 50%);
+}
+
+hr {
+  margin: 0 6%;
+  border: none;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+}
+
+.creator p span {
+  color: hsl(0, 0%, 100%);
+  vertical-align: text-top;
+}
+
+.creator p span:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.creator p {
+  justify-content: center;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.creator img {
+  height: 2rem;
+  width: 2rem;
+  /* border-radius: 50%; */
+  padding: 0;
+  margin-right: 0.5rem;
+  border: 1px solid hsl(0, 0%, 100%);
+}
